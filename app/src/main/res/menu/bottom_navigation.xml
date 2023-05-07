@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AlwaysShowAction, HardcodedText">
+    <item
+        android:id="@+id/tabHome"
+        android:title=""
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/tabAddRecipe"
+        android:title=""
+        android:enabled="true"
+        android:icon="@drawable/ic_add_recipe"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/tabCollection"
+        android:title=""
+        android:enabled="true"
+        android:icon="@drawable/ic_collection"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/tabProfile"
+        android:title=""
+        android:enabled="true"
+        android:icon="@drawable/ic_profile"
+        app:showAsAction="always" />
+</menu>
