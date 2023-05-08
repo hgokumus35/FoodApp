@@ -32,6 +32,10 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures{
+        viewBinding true
+        dataBinding true
+    }
 }
 
 dependencies {
@@ -62,4 +66,20 @@ dependencies {
 
     // Fragment
     implementation "androidx.fragment:fragment-ktx:1.5.7"
+
+    // Glide
+    implementation "com.github.bumptech.glide:glide:4.12.0"
+
+    // Koin
+    implementation "io.insert-koin:koin-android:3.2.0"
+
+    // Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.1'
+
+    // UNIT TEST
+    testImplementation "org.mockito:mockito-core:3.1.0"
+    testImplementation "org.mockito:mockito-inline:3.1.0"
+    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0"
 }

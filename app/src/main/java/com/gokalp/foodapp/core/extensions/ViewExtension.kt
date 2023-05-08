@@ -1,4 +1,4 @@
-package com.gokalp.foodapp.common.extensions
+package com.gokalp.foodapp.core.extensions
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter

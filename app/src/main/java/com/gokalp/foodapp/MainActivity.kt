@@ -10,9 +10,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
-import com.gokalp.foodapp.common.extensions.disableTooltips
-import com.gokalp.foodapp.common.extensions.hide
-import com.gokalp.foodapp.common.extensions.show
+import com.gokalp.foodapp.core.extensions.disableTooltips
+import com.gokalp.foodapp.core.extensions.hide
+import com.gokalp.foodapp.core.extensions.show
 import com.gokalp.foodapp.core.listeners.FoodAppTab
 import com.gokalp.foodapp.core.listeners.FoodAppTabTargetScreen
 import com.gokalp.foodapp.core.listeners.TabViewVisibilityHandler

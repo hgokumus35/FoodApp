@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="foodAppMainTheme">#42CA47</color>
+    <color name="foodAppBlack">#000000</color>
+    <color name="foodAppTextGray">#9A9EA7</color>
 </resources>
